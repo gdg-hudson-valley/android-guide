@@ -1,1 +1,1 @@
-README
+Google Developers Study Jam
