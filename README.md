@@ -1,6 +1,7 @@
 
 ## About GDG Android Study Jam
 
+<<<<<<< HEAD
 ### **About this Book**
 This book has been created by [Nitya Narasimhan](http://www.google.com/+NityaNarasimhan), founder of [GDG Hudson Valley](http://www.meetup.com/gdg-hudson-valley/) and co-organizer of [GDG New York](http://www.meetup.com/NYC-GDG/). The materials here are solely for the use of our members during the course of the Android Study Jam 2015.
 
@@ -8,6 +9,8 @@ This book has been created by [Nitya Narasimhan](http://www.google.com/+NityaNar
 
 All content has rigorously linked back to sources for full accreditation. If you are the owner or author of any content cited here, and wish for it to be edited, removed or annotated in any way, simply create an issue on our GitHub page and we will be happy to comply.
 
+=======
+>>>>>>> FETCH_HEAD
 ### **Schedule**
 
 The jam is scheduled for 8 weeks along the following schedule. The hours shown for each lesson are approximations - your mileage may vary.
@@ -29,9 +32,13 @@ In addition, we will meet (as a study group) for 1-2 hours a week, time that you
 
 
 ### Udacity Resources
+<<<<<<< HEAD
 Check out their [an Android Studio Setup Guide](https://storage.googleapis.com/supplemental_media/udacityu/1395568821/AndroidStudioSetupGuide.pdf) -- however some of the content (e.g., videos) may be slightly out-of-date since they predate the latest Android Studio 1.0 release.
 
 Check out their Materials section for more resources and downloadable content for each lesson.
+=======
+Check out their [an Android Studio Setup Guide](https://storage.googleapis.com/supplemental_media/udacityu/1395568821/AndroidStudioSetupGuide.pdf?GoogleAccessId=1069728276824-2uvq09l4tiplc0gf30rskdsgvtam6k1j@developer.gserviceaccount.com&Expires=1422194340&Signature=Y9GQw%2BzCa/KCUeoLU1XI%2BZdmXIla8r/0wDEazsEJ63/Dyc8m4JU4mfzZxRJ%2BZxsWTZKgEcgn6SxtVd3xo20XH829dsue7P0gCIKyjdg8huZ2nB28TrtbRLDkBvIR85lC6/Jg1A7tOYHVKnMmC6X6cl/fVqAyTkXQi/WK4ebwcHw%3D) -- however some of the content (e.g., videos) may be slightly out-of-date since they predate the latest Android Studio 1.0 release.
+>>>>>>> FETCH_HEAD
 
 Check out their [complete Sunshine app on GitHub](https://github.com/udacity/Sunshine) with a branch for each lesson/step. Use this as a reference only if you get stuck - its always best to do the exercise yourself to gain a better understanding of the materials.
 

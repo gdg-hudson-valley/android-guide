@@ -1,5 +1,6 @@
 # Services & Notifications
 
+<<<<<<< HEAD
 ### **Goals**:
 1.
 
@@ -31,3 +32,13 @@
 ### **Issues (Q&A)**
 
 *We'll use this section to document and answer popular questions from study participants about this lesson.*
+=======
+### **SubChapters**
+
+
+### **Related Resources**
+
+
+### **Notes**
+
+>>>>>>> FETCH_HEAD

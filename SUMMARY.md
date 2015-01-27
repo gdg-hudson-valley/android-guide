@@ -9,6 +9,10 @@
 * [Rich & Responsive Layouts](rich_&_responsive_layouts/README.md)
 * [Services & Notifications](services_&_notifications/README.md)
 * [Final Project](final_project/README.md)
+<<<<<<< HEAD
 * [Resources](resources/README.md)
+=======
+* [Resources](resources/README)
+>>>>>>> FETCH_HEAD
 * [Advanced Concepts](advanced_concepts/README.md)
 

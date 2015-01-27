@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Final Project
 
 ### **Requirements**
@@ -13,3 +14,11 @@ For the [final project](https://www.udacity.com/wiki/ud853/project), you can cre
 ### **Issues (Q&A)**
 
 *We'll use this section to document and answer popular questions from study participants about this lesson.*
+=======
+
+### **Related Resources**
+
+
+### **Notes**
+
+>>>>>>> FETCH_HEAD
