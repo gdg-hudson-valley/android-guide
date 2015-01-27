@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Connect to Cloud
+# [Connect to Cloud](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762)
 
 ### **Goals**:
 1.
@@ -31,18 +30,3 @@
 ### **Issues (Q&A)**
 
 *We'll use this section to document and answer popular questions from study participants about this lesson.*
-=======
-# [Connect to Cloud](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762)
-
-### **SubChapters**
-1.
-
-
-
-### **Related Resources**
-
-
-### **Notes**
-
-
->>>>>>> FETCH_HEAD

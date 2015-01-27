@@ -1,6 +1,5 @@
-# Rich & Responsive Layouts
+# [Rich & Responsive Layouts](https://www.udacity.com/course/viewer#!/c-ud853/l-1623168625)
 
-<<<<<<< HEAD
 ### **Goals**:
 1.
 
@@ -40,13 +39,3 @@
 ### **Issues (Q&A)**
 
 *We'll use this section to document and answer popular questions from study participants about this lesson.*
-=======
-### **SubChapters**
-
-
-### **Related Resources**
-
-
-### **Notes**
-
->>>>>>> FETCH_HEAD

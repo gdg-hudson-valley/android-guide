@@ -52,7 +52,7 @@
 29. [Adapters](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-1604029757)
 30. [Initialize Adapter](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668598/m-1395668599) [(Task)](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668598/m-1402878728) [(*Solution*)](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668598/m-1395668600)
 31. [Finding Views with findViewById()](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1395668602) ([Task](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1402878730)) (*[Solution](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1395668603)*)
-32. **[LESSON 1 Recap](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1395668603)**
+32. **[Lesson 1 Recap](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1395668603)**
 33. [(Storytime) Android Platform](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-1638718772)
 
 ### **General Resources**
