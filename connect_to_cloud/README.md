@@ -6,7 +6,6 @@
 3. UI (main) Thread limitations
 4. AsyncTask (for background operations)
 5. Create and update Menu Options
-6.
 
 
 ### **Code Steps (GitHub) **
