@@ -88,7 +88,18 @@
 
 * **HAXM** (Hardware Acceleration Execution Manager) speeds up emulation. See installation Guides for [Window](https://software.intel.com/en-us/android/articles/installation-instructions-for-intel-hardware-accelerated-execution-manager-windows)s and [Mac](https://software.intel.com/en-us/android/articles/installation-instructions-for-intel-hardware-accelerated-execution-manager-mac-os-x).
 
+* **Jack & Jill** With the Lollipop release, there is a [new experimental toolchain](http://tools.android.com/tech-docs/jackandjill) consisting of *Jack* (Java Android Compiler Kit) and *Jill* (Jack Intermediate Library Linker). You can learn more [about it from their blog post](http://android-developers.blogspot.com/2014/12/hello-world-meet-our-new-experimental.html).
+
 
 ### **Issues (Q&A)**
 
 *We'll use this section to document and answer popular questions from study participants about this lesson.*
+
+1. **What SDK versions should I install from the SDK manager after Android Studio Install?**
+
+2. **How do I install HAXM on my Linux machine? How do I know it is working properly?**
+
+3.
+
+
+
