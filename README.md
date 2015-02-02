@@ -12,6 +12,7 @@ All content has rigorously linked back to sources for full accreditation. If you
 
 *Please add your name to the list below if you performed any commits to the repo, reported issues or contributed in any way to improving this book. Feel free to add context for the contribution as shown by the example below.*
 * Nitya Narasimhan (initial framework for book)
+* John Shea
 
 
 ### **Schedule**
