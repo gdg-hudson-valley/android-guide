@@ -29,7 +29,7 @@ The jam is scheduled for 8 weeks along the following schedule. The hours shown f
 7. Wk7: [Services & Notifications](https://www.udacity.com/course/viewer#!/c-ud853/l-1614738811) *5-8 hrs*
 8. Wk8: [Final Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1938208734) *10-20 hrs*
 
-### **Time Committment**
+### **Time Commitment**
 
 Udacity recommends setting aside 6 hours/week to work on the lessons. Your actual mileage may vary based on lesson and programming background, so budget or adapt accordingly.
 
