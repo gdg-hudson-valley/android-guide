@@ -99,4 +99,4 @@
 
 2. **How do I install HAXM on my Linux machine? How do I know it is working properly?**
 
-3.
+3. **Android Studio does not launch on Mac and says it can't find Java. What to do?** [Read the hints here about exporting STUDIO_JDK](http://tools.android.com/tech-docs/configuration/osx-jdk)
