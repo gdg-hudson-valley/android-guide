@@ -47,7 +47,7 @@
 20. [Temperature Unit Settings](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1643578599/m-1643578598) ([Task](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1643578599/m-1643578600)) ([Solution](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1643578599/m-1643578601))
 21. [Debug Breakpoints](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/m-1643578602)
 22. [Launching Implicit Intents](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/m-1637238591)
-23. [Add Map Location Intent](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808722/m-1480808723) ([Task](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808722/m-1480808724)) (Solution)
+23. [Add Map Location Intent](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808722/m-1480808723) ([Task](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808722/m-1480808724)) ([Solution](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808722/m-1480808725))
 24. Intent Resolution
 25. Share Intent
 26. Broadcast Intents
@@ -67,6 +67,7 @@
 7. [Settings Pattern](https://developer.android.com/design/patterns/settings.html) and [Settings Guide](http://developer.android.com/guide/topics/ui/settings.html)
 8. [Action Bar](https://developer.android.com/guide/topics/ui/actionbar.html)
 8. [SharedPreferences](http://developer.android.com/reference/android/content/SharedPreferences.html)
+9. [Common Intents](https://developer.android.com/guide/components/intents-common.html) -- [specifically for Maps](https://developer.android.com/guide/components/intents-common.html#Maps).
 
 
 ### **Notes**
@@ -79,7 +80,10 @@
     * Declare *values/* resources (strings, arrays) for the various labels and values that will be shown in these preferences. These will be used in the next steps.
     * Create the *PreferencesScreen* resource (xml/pref\_general.xml) with one [*Preference*](http://developer.android.com/reference/android/preference/Preference.html) subclass (e.g., CheckBoxPreference, ListPreference, EditTextPreference..) for each setting. In the SettingsActivity *onCreate()* callback make sure you add preferences from this resource to that activity.
     * Have the SettingsActivity implement *OnPreferenceChangeListener* so it can respond to user changes on any setting key. In the *onCreate* methods, make sure you attach the listener to each Preference in that settings view to automate saving/update of preference changes.
-6.
+6. **Intent Creation.** Read about intents and [how to build an intent](http://developer.android.com/guide/components/intents-filters.html#Building).
+    * An intent typically carries the following information: an *action* (to be taken), the *data* (consisting of a Uri and/or MIME type), a *category* (classifying the kind of component that should handle this intent) and *a component name* (if the targeted component is explicitly identified). Some of these fields (e.g., category, component name) are optional.
+    * In addition, it can carry *Extras* (a blob of name-value pairs) that contains additional context or information (non-data) for carrying out the action.
+7. 
 
 
 ### **Issues (Q&A)**

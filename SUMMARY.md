@@ -11,4 +11,5 @@
 * [Final Project](final_project/README.md)
 * [Resources](resources/README.md)
 * [Advanced Concepts](advanced_concepts/README.md)
+* [Best Practices](best_practices/README.md)
 

@@ -5,7 +5,7 @@
 
 ### **Code Steps (GitHub) **
 1. [Lifecycle Logging](https://github.com/udacity/Sunshine/tree/4.01-life-cycle-logging)
-2.[ Create Weather Contract](https://github.com/udacity/Sunshine/tree/4.02-create-weather-contract)
+2. [Create Weather Contract](https://github.com/udacity/Sunshine/tree/4.02-create-weather-contract)
 3. [Add Weather Table Entry](https://github.com/udacity/Sunshine/tree/4.03-add-weather-table-entry)
 4. [Add Location Table Entry](https://github.com/udacity/Sunshine/tree/4.04-add-location-table-entry)
 5. [Create DB Helper](https://github.com/udacity/Sunshine/tree/4.05-create-db-helper)
