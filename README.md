@@ -14,6 +14,7 @@ Content has been rigorously linked to sources for full attribution. If you are t
 
 * [Nitya Narasimhan](https://github.com/nitya)
 * [John Shea](https://github.com/johnshea)
+* [Friedger Muffke](https://github.com/friedger)
 
 
 ### **Schedule**
