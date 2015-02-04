@@ -41,7 +41,7 @@ In addition, we will meet (as a study group) for 1-2 hours a week, time that you
 
 Check out their [an Android Studio Setup Guide](https://storage.googleapis.com/supplemental_media/udacityu/1395568821/AndroidStudioSetupGuide.pdf) -- however some of the content (e.g., videos) may be slightly out-of-date since they predate the latest Android Studio 1.0 release.
 
-Check out their [Materials section](https://www.udacity.com/wiki/ud853) for more resources and downloadable content for each lesson. Note that its possible to download all videos and watch them offline (if network connectivity is an issue). 
+Check out their [Materials section](https://www.udacity.com/wiki/ud853) for more resources and downloadable content for each lesson. Note that its possible to download all videos and watch them offline (if network connectivity is an issue).
 
 Check out their [complete Sunshine app on GitHub](https://github.com/udacity/Sunshine) with a branch for each lesson/step. Use this as a reference only if you get stuck - its always best to do the exercise yourself to gain a better understanding of the materials.
 

@@ -48,12 +48,12 @@
 21. [Debug Breakpoints](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/m-1643578602)
 22. [Launching Implicit Intents](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/m-1637238591)
 23. [Add Map Location Intent](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808722/m-1480808723) ([Task](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808722/m-1480808724)) ([Solution](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808722/m-1480808725))
-24. Intent Resolution
-25. Share Intent
-26. Broadcast Intents
-27. Intent Filters
-28. Lesson 3 Recap
-29. Storytime: Android Distribution Platform
+24. [Intent Resolution](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/m-1643578603)
+25. [Share Intent](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808726/m-1480808727) ([Task](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808726/m-1480808728)) [(Solution)](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1480808726/m-1643578595)
+26. [Broadcast Intents](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/m-1631278613)
+27. [Intent Filters](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1643578605/m-1643578604) [(Task)](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1643578605/m-1643578606) [(Solution)](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/e-1643578605/m-1643578607)
+28. [Lesson 3 Recap](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/m-1562649277)
+29. [Storytime: Android Distribution Platform](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101/m-1571548639)
 
 
 
@@ -67,7 +67,11 @@
 7. [Settings Pattern](https://developer.android.com/design/patterns/settings.html) and [Settings Guide](http://developer.android.com/guide/topics/ui/settings.html)
 8. [Action Bar](https://developer.android.com/guide/topics/ui/actionbar.html)
 8. [SharedPreferences](http://developer.android.com/reference/android/content/SharedPreferences.html)
-9. [Common Intents](https://developer.android.com/guide/components/intents-common.html) -- [specifically for Maps](https://developer.android.com/guide/components/intents-common.html#Maps).
+9. [ch 23] [Common Intents](https://developer.android.com/guide/components/intents-common.html) -- [for Maps](https://developer.android.com/guide/components/intents-common.html#Maps).
+10. [ch 24] [Intents and Intent Filters](http://developer.android.com/guide/components/intents-filters.html)
+11. [ch 25] [ShareActionProvider](http://developer.android.com/reference/android/widget/ShareActionProvider.html) and [Adding an Easy Share Action](http://developer.android.com/training/sharing/shareaction.html)*
+12. [ch 26] [Listening for and Broadcasting Global Messages..](https://developer.android.com/guide/faq/commontasks.html#broadcastreceivers), [BroadcastReceiver Reference](http://developer.android.com/reference/android/content/BroadcastReceiver.html), [Vogella Tutorial](http://www.vogella.com/tutorials/AndroidBroadcastReceiver/article.html)
+
 
 
 ### **Notes**
@@ -83,7 +87,7 @@
 6. **Intent Creation.** Read about intents and [how to build an intent](http://developer.android.com/guide/components/intents-filters.html#Building).
     * An intent typically carries the following information: an *action* (to be taken), the *data* (consisting of a Uri and/or MIME type), a *category* (classifying the kind of component that should handle this intent) and *a component name* (if the targeted component is explicitly identified). Some of these fields (e.g., category, component name) are optional.
     * In addition, it can carry *Extras* (a blob of name-value pairs) that contains additional context or information (non-data) for carrying out the action.
-7. 
+7.
 
 
 ### **Issues (Q&A)**
@@ -93,5 +97,5 @@
 1. **TargetSDK Issues**. You may have experienced one of these two issues below if your target SDK was set to the latest version (21).To fix, follow the approach in the second link below - you will need to edit the app/gradle file
     * [SettingsActivity does not show back button](http://forums.udacity.com/questions/100256895/settings-activity-doesnt-have-a-back-button?page=1&focusedAnswerId=100256962#100256962)
     * [Settings Title not showing ...](http://forums.udacity.com/questions/100239055/settings-title-not-showing-up-after-clicking-on-menu-item-settings#ud853)
-2.
+
 
