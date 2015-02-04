@@ -95,8 +95,10 @@
 
 *We'll use this section to document and answer popular questions from study participants about this lesson.*
 
-1. **What SDK versions should I install from the SDK manager after Android Studio Install?**
+1. **What SDK versions should I install from the SDK manager after Android Studio Install?** Recommend that you install API 16 and above.
 
 2. **How do I install HAXM on my Linux machine? How do I know it is working properly?**
 
 3. **Android Studio does not launch on Mac and says it can't find Java. What to do?** [Read the hints here about exporting STUDIO_JDK](http://tools.android.com/tech-docs/configuration/osx-jdk)
+
+4. **Where can I learn more about ListView, ArrayAdapter and using Adapters to bind list data to list views?** Vogella [has a nice tutorial](http://www.vogella.com/tutorials/AndroidListView/article.html) that visualizes some of these concepts. Also check out [Android Developes AdapterView ](http://developer.android.com/guide/topics/ui/binding.html) page or this nice [CodePath guide](https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView) (with more [CodePath resources here](https://github.com/codepath/android_guides/wiki#getting-started))
