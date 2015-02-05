@@ -2,7 +2,7 @@
 ## About GDG Android Study Jam
 
 ### **About this Book**
-This book was created by [Nitya Narasimhan](http://www.google.com/+NityaNarasimhan) (founder, [GDG Hudson Valley](http://www.meetup.com/gdg-hudson-valley/) and co-organizer, [GDG New York](http://www.meetup.com/NYC-GDG/)) for use by GDG members participating in the 2015 Android Study Jam. 
+This book was created by [Nitya Narasimhan](http://www.google.com/+NityaNarasimhan) (founder, [GDG Hudson Valley](http://www.meetup.com/gdg-hudson-valley/) and co-organizer, [GDG New York](http://www.meetup.com/NYC-GDG/)) for use by GDG members participating in the 2015 Android Study Jam.
 
 The book is the collective effort of the contributors listed below. [*You can view the current book online at nitya.gitbooks.io*](http://nitya.gitbooks.io/gdg-android-study-jam-guide/). Changes made to the repository are automatically published to the online version using webhooks.
 
@@ -52,7 +52,7 @@ Check out their [complete Sunshine app on GitHub](https://github.com/udacity/Sun
 
 **Prep Session:** We'll kick off with a session to cover the big picture, and to help with initial setup and other questions. [Register here to attend](http://www.meetup.com/gdg-hudson-valley/events/219282068/). The presentation is also [available online here](http://bit.ly/androidjamprep).
 
-**Study Sessions:** We will hold regular (weekly) study sessions to review materials, answer questions or debug issues. You MUST join the [GDG Hudson Valley](http://www.meetup.com/gdg-hudson-valley/) meetup and RSVP for each event.
+**Study Sessions:** We will hold regular (weekly) study sessions to review materials, answer questions or debug issues. You MUST join the [GDG Hudson Valley](http://www.meetup.com/gdg-hudson-valley/) meetup and RSVP for each event. A "living document" version of the [review presentation is available here](http://bit.ly/gdghv-session1). It will continue to be updated on a weekly basis over the course of the Jam.
 
 **Hangouts:** We may complement in-venue meetings with online hangouts run on Google+. When these are held, they will be announced on our [GDG Hudson Valley community page](https://plus.google.com/u/0/b/116637480947982055865/communities/102846463613728256642) and you will need to RSVP there to join.
 
