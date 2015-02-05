@@ -2,7 +2,9 @@
 ## About GDG Android Study Jam
 
 ### **About this Book**
-This book was created by [Nitya Narasimhan](http://www.google.com/+NityaNarasimhan) (founder, [GDG Hudson Valley](http://www.meetup.com/gdg-hudson-valley/) and co-organizer, [GDG New York](http://www.meetup.com/NYC-GDG/)) for use by GDG members participating in the 2015 Android Study Jam. The book is the collective effort of the contributors listed below.
+This book was created by [Nitya Narasimhan](http://www.google.com/+NityaNarasimhan) (founder, [GDG Hudson Valley](http://www.meetup.com/gdg-hudson-valley/) and co-organizer, [GDG New York](http://www.meetup.com/NYC-GDG/)) for use by GDG members participating in the 2015 Android Study Jam. 
+
+The book is the collective effort of the contributors listed below. [*You can view the current book online at nitya.gitbooks.io*](http://nitya.gitbooks.io/gdg-android-study-jam-guide/). Changes made to the repository are automatically published to the online version using webhooks.
 
 **This book is not meant for sale and should not be used or leveraged in any commercial context.**
 
