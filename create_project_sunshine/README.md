@@ -31,7 +31,7 @@
 8. [Create a New Android Studio Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-1589778713) (1:34)
 9. [Select a Min and Target SDK](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-1643858570) (2:11)
 10. [Select a Target SDK](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668585/m-1395668586) (0:12) [(*Solution*)](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668585/m-1395668587)
-11. [Finish Creating a New Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1660548623/m-1660548624) (3:16)
+11. [Finish Creating a New Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1660548623/m-1660548624) (3:16) Needs: [launcher icon](https://s3.amazonaws.com/content.udacity-data.com/course/ud853/ic_launcher.png).
 12. [Install HAXM](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-2001148615) (0:53)
 13. [Launching Sunshine and Creating an AVD](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-1601259311) (2:09)
 14. [Android Software Stack and Gradle](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-1395668588) (2:28)

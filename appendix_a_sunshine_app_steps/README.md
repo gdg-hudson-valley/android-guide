@@ -11,6 +11,13 @@ Code Solutions currently linked to Udacity's own GitHub repo.
 
 
 ### Lesson 1: Create App
+Tasks
+1. [Finish Creating a New Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1660548623/m-1660548625)
+2. [Create a User Interface with visual editor](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1647298625/m-1647298626)
+3. [Add ListItem XML](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668589/m-1402878720)
+4.
+
+Solutions
 1. [Hello World](https://github.com/udacity/Sunshine/tree/1.01-hello-world)
 2. [List Item Layout Exercise](https://github.com/udacity/Sunshine/tree/1.02-list-item-layout)
 3. [Use List View](https://github.com/udacity/Sunshine/tree/1.03-use-list-view)
