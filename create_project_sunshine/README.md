@@ -103,3 +103,5 @@
 3. **Android Studio does not launch on Mac and says it can't find Java. What to do?** [Read the hints here about exporting STUDIO_JDK](http://tools.android.com/tech-docs/configuration/osx-jdk)
 
 4. **Where can I learn more about ListView, ArrayAdapter and using Adapters to bind list data to list views?** Vogella [has a nice tutorial](http://www.vogella.com/tutorials/AndroidListView/article.html) that visualizes some of these concepts. Also check out [Android Developes AdapterView ](http://developer.android.com/guide/topics/ui/binding.html) page or this nice [CodePath guide](https://github.com/codepath/android_guides/wiki/Using-an-ArrayAdapter-with-ListView) (with more [CodePath resources here](https://github.com/codepath/android_guides/wiki#getting-started))
+
+5. **What do I do if I don't have an Intel processor and can't install HAXM?** If you don't have an Intel processor, e.g. AMD, HAXM cannot be installed and if you try to use the AVD installed by default, which is based on an x86 system image, it will not run without HAXM. So, you must create a new AVD using one of the arm based system images.
