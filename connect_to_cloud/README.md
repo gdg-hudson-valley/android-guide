@@ -52,6 +52,7 @@
 30. [Done!](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762/m-1639448637)
 31. [Lesson 2 Recap](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762/m-1630778648)
 32. [Storytime: Android Consumer Platform](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762/m-1562269355)
+33. [**Review Material for Lesson 2**](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762/m-3637468791)
 
 
 ### **Lesson Resources**
