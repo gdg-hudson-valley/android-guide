@@ -54,6 +54,7 @@
 31. [Finding Views with findViewById()](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1395668602) (2:08) ([Task](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1402878730)) (*[Solution](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1395668603)*)
 32. **[Lesson 1 Recap](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/e-1395668601/m-1395668603)** (0:38)
 33. [(Storytime) Android Platform](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-1638718772) (2:49)
+34. [**Review Material for Lesson 1**](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821/m-3614828680) - perfect for review class
 
 ### **General Resources**
 1. [Android Sample Code](http://developer.android.com/samples/index.html)
@@ -98,7 +99,7 @@
 1. **What SDK versions should I install from the SDK manager after Android Studio Install?** Recommend that you install API 16 and above.
 
 2. **How do I install HAXM on my Linux machine? How do I know it is working properly?**
-  You need KVM installed. [Checkout this guide.] (https://software.intel.com/en-us/blogs/2012/03/12/how-to-start-intel-hardware-assisted-virtualization-hypervisor-on-linux-to-speed-up-intel-android-x86-emulator) 
+  You need KVM installed. [Checkout this guide.] (https://software.intel.com/en-us/blogs/2012/03/12/how-to-start-intel-hardware-assisted-virtualization-hypervisor-on-linux-to-speed-up-intel-android-x86-emulator)
 
 3. **Android Studio does not launch on Mac and says it can't find Java. What to do?** [Read the hints here about exporting STUDIO_JDK](http://tools.android.com/tech-docs/configuration/osx-jdk)
 
