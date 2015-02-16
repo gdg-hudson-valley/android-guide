@@ -91,3 +91,32 @@
 ### **Issues (Q&A)**
 
 *We'll use this section to document and answer popular questions from study participants about this lesson.*
+
+* **AsyncTask** Explain AsyncTask operation with the image below ([from this article](http://www.lucadentella.it/en/2014/05/04/android-e-bluetooth-5/)) . In addition, look at the [Processes and Threads](http://developer.android.com/guide/components/processes-and-threads.html) and [AsyncTask API](http://developer.android.com/reference/android/os/AsyncTask.html) sections on Android Developers.
+![](http://www.lucadentella.it/blog/wp-content/uploads/2014/05/asynctask.jpg)
+
+* **Permissions** Walkthrough the [Permissions Guide](http://developer.android.com/guide/topics/security/permissions.html) and talk about [Manifest Permissions](http://developer.android.com/reference/android/Manifest.permission.html), [Permission Groups](http://developer.android.com/reference/android/Manifest.permission_group.html)
+    * Talk about [the difference between 'permission' and 'uses-permission'](http://stackoverflow.com/questions/14450839/uses-permission-vs-permission-for-android-permissions-in-the-manifest-xml-file) declarations in Manifest. (Hint: *permission*=custom permissions I create and that others need to get this to use my app's features, *uses-permission*=I need to get this to do my job).
+    * Use these commands to see permissions on your system
+```
+adb shell pm list permissions
+```
+    * Look [at this example](http://developer.android.com/guide/topics/manifest/manifest-intro.html#perms) to get a sense of how this works. Here the app declares its custom permission ("permission"), then declares that it uses that permission itself ("uses-permission") requiring the user to agree to that usage. The reason it does so is that this app's components itself (here the 'activity') indicate that they are protected by that permission, requiring it to be given before that component can be used by other components of this app itself.
+```
+<manifest . . . >
+    <permission android:name="com.example.project.DEBIT_ACCT" . . . />
+    <uses-permission android:name="com.example.project.DEBIT_ACCT" />
+    . . .
+    <application . . .>
+        <activity android:name="com.example.project.FreneticActivity"
+                  android:permission="com.example.project.DEBIT_ACCT"
+                  . . . >
+            . . .
+        </activity>
+    </application>
+</manifest>
+```
+
+*
+
+
