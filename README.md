@@ -21,6 +21,7 @@ Content has been rigorously linked to sources for full attribution. If you are t
 * [Crystal Sundaramoorthy](https://github.com/crystalsundara)
 
 
+
 ### **Schedule**
 
 The jam is scheduled for 8 weeks along the following schedule. The hours shown for each lesson are approximations - your mileage may vary.
