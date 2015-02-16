@@ -35,6 +35,13 @@ The jam is scheduled for 8 weeks along the following schedule. The hours shown f
 7. Wk7: [Services & Notifications](https://www.udacity.com/course/viewer#!/c-ud853/l-1614738811) *5-8 hrs*
 8. Wk8: [Final Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1938208734) *10-20 hrs*
 
+### **Lesson Updates (Feb 2015)**
+Udacity recently (on *February 13, 2015*) updated the courses to reflect the Android Studio 1.0 release. **This involves changes to the Sunshine App codebase [as documented here](https://docs.google.com/document/d/193xJb_OpcNCqgquMhxPrMh05IEYFXQqt0S6-6YK8gBw/pub)**.
+
+As a result, there are actually **two** repositories for the codebase. Use[ Sunshine2](https://github.com/udacity/Sunshine-Version-2) if you are following along with the latest updates. This is th e recommended course of action.
+
+The older Sunshine app version is [still available for reference](https://github.com/udacity/Sunshine). This book will soon be updated to use the latest version in all links. Where this has been done, the text will be updated with a note indicating it is relevant to **Sunshine2**.
+
 ### **Time Commitment**
 
 Udacity recommends setting aside 6 hours/week to work on the lessons. Your actual mileage may vary based on lesson and programming background, so budget or adapt accordingly.
