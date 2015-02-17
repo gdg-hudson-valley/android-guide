@@ -7,21 +7,21 @@
 4. Launch with Intents (explicit vs. implict, extras)
 
 
-### **Code Steps (GitHub) **
-1. [Shows Data](https://github.com/udacity/Sunshine/tree/3.00-shows-data)
-2. [Toast](https://github.com/udacity/Sunshine/tree/3.01-toast)
-3. [Detail Activity](https://github.com/udacity/Sunshine/tree/3.02-detail-activity)
-4. [Launch Detail Intent](https://github.com/udacity/Sunshine/tree/3.03-launch-detail-intent)
-5. [Display Detail Content](https://github.com/udacity/Sunshine/tree/3.04-display-detail-content)
-6. [Add Settings Activity](https://github.com/udacity/Sunshine/tree/3.05-add-settings-activity)
-7. [Launch Settings](https://github.com/udacity/Sunshine/tree/3.06-launch-settings)
-8. [Location Setting XML](https://github.com/udacity/Sunshine/tree/3.07-location-setting-xml)
-9. [Inflate Settings XML](https://github.com/udacity/Sunshine/tree/3.08-inflate-settings-xml)
-10. [Get Location From Shared Pref](https://github.com/udacity/Sunshine/tree/3.09-get-location-from-shared-pref)
-11. [Refactor Refresh](https://github.com/udacity/Sunshine/tree/3.10-refactor-refresh)
-12. [Units Setting](https://github.com/udacity/Sunshine/tree/3.11-units-setting)
-13. [Map Intent](https://github.com/udacity/Sunshine/tree/3.12-map-intent)
-14. [Add Share Action Provider](https://github.com/udacity/Sunshine/tree/3.13-add-share-action-provider)
+### **Code Steps** (Original) (Feb 2015 Update)
+1. **Shows Data:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.00-shows-data)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.00_remove_logging))
+2. **Toast:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.01-toast)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.01_add_toast))
+3. **Detail Activity:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.02-detail-activity)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.02_create_detail_activity))
+4. **Launch Detail Intent:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.03-launch-detail-intent)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.03_launch_detail_activity))
+5. **Display Detail Content:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.04-display-detail-content)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.04_populate_detail_text))
+6. **Add Settings Activity:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.05-add-settings-activity)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.05_add_settingsactivity))
+7. **Launch Settings:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.06-launch-settings)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.06_launch_settings))
+8. **Location Setting XML:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.07-location-setting-xml)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.07_add_locations_setting))
+9. **Inflate Settings XML:** [Sunshine](https://github.com/udacity/Sunshine/tree/3.08-inflate-settings-xml) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.08_inflate_settingsactivity))
+10. **Get Location From Shared Pref:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.09-get-location-from-shared-pref)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.09_location_from_prefs))
+11. **Refactor Refresh:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.10-refactor-refresh)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.10_refactor_fetch_weather))
+12. ** Units Setting** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.11-units-setting)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.11_add_units_setting))
+13. **Map Intent:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.12-map-intent)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.12_add_map_intent))
+14. **Add Share Action Provider:** ([Sunshine](https://github.com/udacity/Sunshine/tree/3.13-add-share-action-provider)) ([Sunshine 2](https://github.com/udacity/Sunshine-Version-2/tree/3.13_add_share_action_provider))
 
 
 ### **SubChapters**:
