@@ -29,7 +29,7 @@ The jam is scheduled for 8 weeks along the following schedule. The hours shown f
 1. Wk1: [Create Project Sunshine](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821) *5-8 hrs*
 2. Wk2: [Connect Sunshine to Cloud](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762) *8-10 hrs*
 3. Wk3: [New Activities & Intents](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101) *8-10 hrs*
-4. Wk4: [Lifecycle & Databases](https://www.udacity.com/course/viewer#!/c-ud853/l-1639338560) *5-8 hours*
+4. Wk4: [Activity Lifecycle and Data](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730) *5-8 hours*
 5. Wk5: [Content Providers & Loaders](https://www.udacity.com/course/viewer#!/c-ud853/l-1576308909) *10-12 hrs*
 6. Wk6: [Rich & Responsive Layouts](https://www.udacity.com/course/viewer#!/c-ud853/l-1623168625) *8-10 hrs*
 7. Wk7: [Services & Notifications](https://www.udacity.com/course/viewer#!/c-ud853/l-1614738811) *5-8 hrs*
