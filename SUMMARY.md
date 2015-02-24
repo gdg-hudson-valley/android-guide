@@ -15,4 +15,5 @@
 * [Best Practices](best_practices/README.md)
 * [Appendix A: Sunshine App Steps](appendix_a_sunshine_app_steps/README.md)
 * [Appendix B: Android Studio Tips](appendix_b_android_studio_tips/README.md)
+* [Appendix C: SQLiteTutorial](appendix_c_sqlitetutorial/README.md)
 
