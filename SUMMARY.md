@@ -5,6 +5,7 @@
 * [Connect to Cloud](connect_to_cloud/README.md)
 * [New Activities & Intents](new_activities_&_intents/README.md)
 * [Lifecycle & Databases](lifecycle_&_databases/README.md)
+* [Activity Lifecycle and Data ](activity_lifecycle_and_data/README.md)
 * [Content Providers & Loaders](content_providers_&_loaders/README.md)
 * [Rich & Responsive Layouts](rich_&_responsive_layouts/README.md)
 * [Services & Notifications](services_&_notifications/README.md)

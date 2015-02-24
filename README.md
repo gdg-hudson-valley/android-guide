@@ -26,14 +26,15 @@ Content has been rigorously linked to sources for full attribution. If you are t
 
 The jam is scheduled for 8 weeks along the following schedule. The hours shown for each lesson are approximations - your mileage may vary.
 
-1. Wk1: [Create Project Sunshine](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821) *5-8 hrs*
-2. Wk2: [Connect Sunshine to Cloud](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762) *8-10 hrs*
-3. Wk3: [New Activities & Intents](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101) *8-10 hrs*
-4. Wk4: [Activity Lifecycle and Data](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730) *5-8 hours*
-5. Wk5: [Content Providers & Loaders](https://www.udacity.com/course/viewer#!/c-ud853/l-1576308909) *10-12 hrs*
-6. Wk6: [Rich & Responsive Layouts](https://www.udacity.com/course/viewer#!/c-ud853/l-1623168625) *8-10 hrs*
-7. Wk7: [Services & Notifications](https://www.udacity.com/course/viewer#!/c-ud853/l-1614738811) *5-8 hrs*
-8. Wk8: [Final Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1938208734) *10-20 hrs*
+* L1: [Create Project Sunshine](https://www.udacity.com/course/viewer#!/c-ud853/l-1395568821) *5-8 hrs*
+* L2: [Connect Sunshine to Cloud](https://www.udacity.com/course/viewer#!/c-ud853/l-1469948762) *8-10 hrs*
+* L3: [New Activities & Intents](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101) *8-10 hrs*
+* L4a: [Activity Lifecycle & Data](https://www.udacity.com/course/viewer#!/c-ud853/l-1639338560) *5-8 hours*
+* L4b: [Content Providers](https://www.udacity.com/course/viewer#!/c-ud853/l-3599339441) *5-8 hours*
+* L4c: [Hooking it up with Loaders](https://www.udacity.com/course/viewer#!/c-ud853/l-3681658545) *10-12 hrs*
+* L5: [Rich and Responsive Layouts](https://www.udacity.com/course/viewer#!/c-ud853/l-1623168625) *8-10 hrs*
+* L6: [Services & Notifications](https://www.udacity.com/course/viewer#!/c-ud853/l-1614738811) *5-8 hrs*
+* [Final Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1938208734) *10-20 hrs*
 
 ### **Lesson Updates (Feb 2015)**
 Udacity recently (on *February 13, 2015*) updated the courses to reflect the Android Studio 1.0 release. **This involves changes to the Sunshine App codebase [as documented here](https://docs.google.com/document/d/193xJb_OpcNCqgquMhxPrMh05IEYFXQqt0S6-6YK8gBw/pub)**.
