@@ -1,20 +1,24 @@
-# [Lifecycle & Databases](https://www.udacity.com/course/viewer#!/c-ud853/l-1639338560)
+# [Content Providers](https://www.udacity.com/course/viewer#!/c-ud853/l-3599339441)
+
+*This chapter has been revised in February 2015 to reflect the updated course materials used with Sunshine-v2.*
 
 ### **Goals**:
 1.
 
-### **Code Steps (GitHub) **
-1. [Lifecycle Logging](https://github.com/udacity/Sunshine/tree/4.01-life-cycle-logging)
-2. [Create Weather Contract](https://github.com/udacity/Sunshine/tree/4.02-create-weather-contract)
-3. [Add Weather Table Entry](https://github.com/udacity/Sunshine/tree/4.03-add-weather-table-entry)
-4. [Add Location Table Entry](https://github.com/udacity/Sunshine/tree/4.04-add-location-table-entry)
-5. [Create DB Helper](https://github.com/udacity/Sunshine/tree/4.05-create-db-helper)
-6. [Location Entry Creation](https://github.com/udacity/Sunshine/tree/4.06-location-entry-creation)
-7. [Finish DB Helper](https://github.com/udacity/Sunshine/tree/4.07-finish-db-helper)
-8. [Start Testing DB](https://github.com/udacity/Sunshine/tree/4.08-start-testing-db)
-9. [Finish Test Insert Read DB](https://github.com/udacity/Sunshine/tree/4.09-finish-test-insert-read-db)
-10. [Simplify Tests](https://github.com/udacity/Sunshine/tree/4.10-simplify-tests)
-11. [Add Content Provider To Contract](https://github.com/udacity/Sunshine/tree/4.11-add-content-provider-to-contract)
+
+### **Code Steps (Sunshine-2) **
+1. [Start Code Content Provider](https://github.com/udacity/Sunshine-Version-2/tree/4.07_start_code_content_provider)
+2. [UriBuilder Weather With Location](https://github.com/udacity/Sunshine-Version-2/tree/4.08_uribuilder_weather_with_location)
+8. [Write URI Matcher](https://github.com/udacity/Sunshine-Version-2/tree/4.09_write_uri_matcher)
+9. [Register ContentProvider](https://github.com/udacity/Sunshine-Version-2/tree/4.10_register_contentprovider)
+10. [GetType](https://github.com/udacity/Sunshine-Version-2/tree/4.11_gettype)
+11. [Query](https://github.com/udacity/Sunshine-Version-2/tree/4.12_query)
+12. [Insert](https://github.com/udacity/Sunshine-Version-2/tree/4.13_insert)
+13. [Update_Delete](https://github.com/udacity/Sunshine-Version-2/tree/4.14_update_delete)
+14. [Refactor FetchWeather](https://github.com/udacity/Sunshine-Version-2/tree/4.15_refactor_fetchweather)
+15. [Use ContentProvider Inserts](https://github.com/udacity/Sunshine-Version-2/tree/4.16_use_contentprovider_inserts)
+16. [BulkInserts with Content Provider](https://github.com/udacity/Sunshine-Version-2/tree/4.17_bulkinserts_with_contentprovider)
+
 
 ### **SubChapters**:
 1.

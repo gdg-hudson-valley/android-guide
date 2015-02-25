@@ -1,20 +1,23 @@
 # [Activity Lifecycle and Data](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730)
 
-### **Goals**:
-1.
+*This chapter has been revised in February 2015 to reflect the updated course materials used with Sunshine-v2.*
 
-### **Code Steps (GitHub) **
-1. [Lifecycle Logging](https://github.com/udacity/Sunshine/tree/4.01-life-cycle-logging)
-2. [Create Weather Contract](https://github.com/udacity/Sunshine/tree/4.02-create-weather-contract)
-3. [Add Weather Table Entry](https://github.com/udacity/Sunshine/tree/4.03-add-weather-table-entry)
-4. [Add Location Table Entry](https://github.com/udacity/Sunshine/tree/4.04-add-location-table-entry)
-5. [Create DB Helper](https://github.com/udacity/Sunshine/tree/4.05-create-db-helper)
-6. [Location Entry Creation](https://github.com/udacity/Sunshine/tree/4.06-location-entry-creation)
-7. [Finish DB Helper](https://github.com/udacity/Sunshine/tree/4.07-finish-db-helper)
-8. [Start Testing DB](https://github.com/udacity/Sunshine/tree/4.08-start-testing-db)
-9. [Finish Test Insert Read DB](https://github.com/udacity/Sunshine/tree/4.09-finish-test-insert-read-db)
-10. [Simplify Tests](https://github.com/udacity/Sunshine/tree/4.10-simplify-tests)
-11. [Add Content Provider To Contract](https://github.com/udacity/Sunshine/tree/4.11-add-content-provider-to-contract)
+### **Goals**:
+1. Understand Activity Lifecyle
+2. What to do in different callbacks (onPause, onStop..)
+3. Saving/Restoring State (Bundles)
+4. Storing Data (SQLite)
+5. Data Contracts & SQLiteOpenHelper
+6. Instrument for simple Unit Testing
+
+### **Code Steps (Sunshine v2) **
+1. [Life Cycle](https://github.com/udacity/Sunshine-Version-2/tree/4.01_life_cycle)
+2. [Start Code For Lesson 4](https://github.com/udacity/Sunshine-Version-2/tree/4.02_start_code_for_lesson_4)
+3. [Define Contract Constants](https://github.com/udacity/Sunshine-Version-2/tree/4.03_define_contract_constants)
+4. [Location Database](https://github.com/udacity/Sunshine-Version-2/tree/4.04_location_database)
+5. [Test Location Table](https://github.com/udacity/Sunshine-Version-2/tree/4.05_test_location_table)
+6. [Test Weather Table](https://github.com/udacity/Sunshine-Version-2/tree/4.06_test_weather_table)
+
 
 ### **SubChapters**:
 1. [Introduction to Lesson 4](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/m-1620448626) (0:43)
@@ -32,7 +35,7 @@
 13. [Storing Data: SQLite DB Quiz](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/e-3629689170/m-3627479031) (3:04) [(Task)](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/e-3629689170/m-2450948548) [(*Solution*)](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/e-3629689170/m-3666188698)
 14. [Storing Data in Android: Conclusion](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/m-3677438574) (0:53)
 15. [How We're Changing Sunshine](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/m-3602748953) (0:47)
-16. [Get The Starter Code](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/m-3617349500)
+16. [Get The Starter Code](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/m-3617349500) [GitHub Repo](https://github.com/udacity/Sunshine-Version-2/tree/lesson_4_starter_code)
 17. [Intro to WeatherContract](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/m-3661228653) (1:28)
 18. [Weather Table Columns Quiz](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/e-3641159006/m-3602719481) (0:31) [(Task)](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/e-3641159006/m-3600409885) [(*Solution*)](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/e-3641159006/m-3621979749)
 19. [Weather and Location Tables](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/m-3644178948) (1:12)
@@ -48,11 +51,37 @@
 
 
 ### **Lesson Resources**
-1.
+
+1. [Android Activity Cycle](http://developer.android.com/training/basics/activity-lifecycle/starting.html) (Android Developers)
+2. [When to include an Exit Button in Your Android App](https://www.youtube.com/watch?v=631T7B8HOv4) (Reto Meier, Android Developers on YouTube)
+3. [SQL Lite Tutorial ](https://www.udacity.com/course/viewer#!/c-ud853/l-3621368730/m-2602608541) (replicated in Appendix C)
+4. [Using sqlite3](http://developer.android.com/tools/help/sqlite3.html) (Android Developers)
+5. [Storage Options](http://developer.android.com/guide/topics/data/data-storage.html) (Android Developers)
+6. [Contacts Contract](http://developer.android.com/reference/android/provider/ContactsContract.html)
+7. [SQL Tutorial](http://www.w3schools.com/sql/) (W3Schools) - see Foreign Keys
+8. [BaseColumns](http://developer.android.com/reference/android/provider/BaseColumns.html) (base for derived tables in a Contract)
+9. [Android Testing Fundamentals](http://developer.android.com/tools/testing/testing_android.html)
+10. [JUnit Testing](http://www.tutorialspoint.com/junit/junit_quick_guide.htm)
+11. [SQLiteOpenHelper](http://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper.html)
+12. [ALTER TABLE reference](https://www.sqlite.org/lang_altertable.html)
+13. [SQLite Database Docs](http://developer.android.com/reference/android/database/sqlite/SQLiteDatabase.html) (Android Developers)
+14. [Test Values for Location Test (Gist)](https://gist.github.com/anonymous/c758e97765f2ca48fbc6)
+
+
 
 
 ### **Notes**
-1.
+
+**Understanding the Android Activity Lifecyle** -
+
+Note the presence of two cyclic paths here.
+
+The first (active-paused-active) reflects an activity going in and out of focus (e.g., as a dialog or other view obscures part of the activity, leaving it visible but not in focus).
+
+The second (active-paused-stopped-restarting-visible-active) reflects an activity being covered by another activity, leaving it invisible (but potentially still "alive" in the background) but ready to resurface when the top level activity is terminated.
+
+![](https://s3.amazonaws.com/content.udacity-data.com/course/ud853/Android_Activity_LifeCyle.png)
+
 
 
 ### **Issues (Q&A)**

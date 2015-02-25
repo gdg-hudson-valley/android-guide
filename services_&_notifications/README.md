@@ -1,5 +1,7 @@
 # [Services & Notifications](https://www.udacity.com/course/viewer#!/c-ud853/l-1614738811)
 
+*This chapter has been revised in February 2015 to reflect the updated course materials used with Sunshine-v2.*
+
 ### **Goals**:
 1.
 
