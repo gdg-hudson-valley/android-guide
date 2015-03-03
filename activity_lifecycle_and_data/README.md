@@ -74,15 +74,28 @@
 
 **Understanding the Android Activity Lifecyle** -
 
-Note the presence of two cyclic paths here.
-
-The first (active-paused-active) reflects an activity going in and out of focus (e.g., as a dialog or other view obscures part of the activity, leaving it visible but not in focus).
-
-The second (active-paused-stopped-restarting-visible-active) reflects an activity being covered by another activity, leaving it invisible (but potentially still "alive" in the background) but ready to resurface when the top level activity is terminated.
-
 ![](https://s3.amazonaws.com/content.udacity-data.com/course/ud853/Android_Activity_LifeCyle.png)
 
+| CALLBACK | STATE | HANDLER ACTIONS |
+| -- | -- | -- |
+| **onCreate**  | CREATED   | Static setup - create views, bind data to lists etc. Calls *setContentView* to define layout for default Activity UI |
+| **onStart**   | VISIBLE   | Activity is about to become visibile.  |
+| **onResume**  | ACTIVE    | Last call before activity gets focus, allowing user to interact.  |
+| **onPause**   | PAUSED    | First indication that user is leaving your activity. Commit changes and persist state required in the eventuality that you get pre-emptively destroyed |
+| **onStop**    | STOPPED   | No longer visible but not necessarily being destroyed. Stop any UI updates if still ongoing. |
+| **onRestart** | RESTARTED | Indicates previously stopped activity is being restarted. Followed by onStart() invocation always. |
+| **onDestroy** | DESTROYED | Release all resources held by Activity (including stopping threads). Final call to activity. Use *isFinishing()* to detemine if activity is exiting on completion (true) or being pre-emptively destroyed (false) |
 
+
+Note the presence of two cyclic paths here.
+  1. ACTIVE **- onPause - VISIBLE - onResume -** ACTIVE
+  2. ACTIVE - onPause - **VISIBLE - onStop - STOPPED - onStart - VISIBLE** - onResume - ACTIVE
+
+The first occurs when a dialog occludes the underlying view (partially obscuring it, but not hiding it entirely). The view is now visible but not in focus.
+
+The second occurs when a new activity is started which completely obscures the existing activity screen. When the new activity is later terminated, the original activity comes back into visibility and focus.
+
+The last call that is *guaranteed* to be called by the runtime before it destroys your app (e.g., to retrieve resources) is **onPause**. So always make sure that you prepare for 'app death' in that callback handler.
 
 ### **Issues (Q&A)**
 

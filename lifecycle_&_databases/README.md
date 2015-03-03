@@ -51,9 +51,6 @@
 4. [<provider> Documentation](http://developer.android.com/guide/topics/manifest/provider-element.html)
 5. [Content Provider Basics](http://developer.android.com/guide/topics/providers/content-provider-basics.html#ClientProvider)
 6. [parseId Documentation](http://developer.android.com/reference/android/content/ContentUris.html#parseId(android.net.Uri))
-7.
-
-
 
 ### **Notes**
 1.
