@@ -31,7 +31,7 @@ The jam is scheduled for 8 weeks along the following schedule. The hours shown f
 * L3: [New Activities & Intents](https://www.udacity.com/course/viewer#!/c-ud853/l-1474559101) *8-10 hrs*
 * L4a: [Activity Lifecycle & Data](https://www.udacity.com/course/viewer#!/c-ud853/l-1639338560) *5-8 hours*
 * L4b: [Content Providers](https://www.udacity.com/course/viewer#!/c-ud853/l-3599339441) *5-8 hours*
-* L4c: [Hooking it up with Loaders](https://www.udacity.com/course/viewer#!/c-ud853/l-3681658545) *10-12 hrs*
+* L4c: [Hooking it Up with Loaders](https://www.udacity.com/course/viewer#!/c-ud853/l-3681658545) *10-12 hrs*
 * L5: [Rich and Responsive Layouts](https://www.udacity.com/course/viewer#!/c-ud853/l-1623168625) *8-10 hrs*
 * L6: [Services & Notifications](https://www.udacity.com/course/viewer#!/c-ud853/l-1614738811) *5-8 hrs*
 * [Final Project](https://www.udacity.com/course/viewer#!/c-ud853/l-1938208734) *10-20 hrs*
