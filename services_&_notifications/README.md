@@ -6,6 +6,7 @@
 1.
 
 ### **Code Steps (GitHub) **
+(To be updated for Version 2)
 1. [Using Services](https://github.com/udacity/Sunshine/tree/6.01-using-services)
 2. [Using Alarms](https://github.com/udacity/Sunshine/tree/6.02-using-alarms)
 3. [Start Sync Adapter](https://github.com/udacity/Sunshine/tree/6.03-start-sync-adapter)
