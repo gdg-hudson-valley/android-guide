@@ -72,7 +72,7 @@
 
 ### **Notes**
 
-**Understanding the Android Activity Lifecyle** -
+####Understanding the Android Activity Lifecyle
 
 ![](https://s3.amazonaws.com/content.udacity-data.com/course/ud853/Android_Activity_LifeCyle.png)
 
@@ -96,6 +96,21 @@ The first occurs when a dialog occludes the underlying view (partially obscuring
 The second occurs when a new activity is started which completely obscures the existing activity screen. When the new activity is later terminated, the original activity comes back into visibility and focus.
 
 The last call that is *guaranteed* to be called by the runtime before it destroys your app (e.g., to retrieve resources) is **onPause**. So always make sure that you prepare for 'app death' in that callback handler.
+
+
+#### Saving/Restoring Activity State
+Activities can be destroyed in the course of normal operation (e.g., Activity calls *finish()* on itself, or user presses *Back* button), or may be prematurely terminated by the system (for resource reclamation).
+
+In the latter case, the system remembers the Activity existed and can transparently resurrect it later (when resources are available, or when its priority increases). To do this, the application's *instance state* can be stored before destruction, and restored during resurrection.
+
+![](http://developer.android.com/images/training/basics/basic-lifecycle-savestate.png)
+
+To support this state restoration, simply implement the following callbacks in your Android Activity
+ * _onSaveInstanceState(Bundle bundle)_  - add key-value pairs to store state in the Bundle. Always call the super.onSaveInstanceState() to ensure that the view hierarchy is also persisted for you.
+ * the created Bundle is passed into two different callbacks: _onCreate(Bundle bundle)_ and _onrestoreInstanceState(Bundle bundle)_ and you can use **either** callback to restore your state. With one key difference. *onCreate* is called regardless of whether the Activity is created for the first time or whether it is being restored from a pre-emptive termination -- so you need to verify that Bundle is not null (to indicate restoration). Whereas _onRestoreInstanceState()_ is only called on restoration (no checking needed) and is always called right after onCreate completes.
+
+Read more about this on Android Developers "[Recreating an Activity](http://developer.android.com/images/training/basics/basic-lifecycle-savestate.png)".
+
 
 ### **Issues (Q&A)**
 
