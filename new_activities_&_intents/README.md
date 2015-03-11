@@ -98,5 +98,6 @@
 1. **TargetSDK Issues**. You may have experienced one of these two issues below if your target SDK was set to the latest version (21).To fix, follow the approach in the second link below - you will need to edit the app/gradle file
     * [SettingsActivity does not show back button](http://forums.udacity.com/questions/100256895/settings-activity-doesnt-have-a-back-button?page=1&focusedAnswerId=100256962#100256962)
     * [Settings Title not showing ...](http://forums.udacity.com/questions/100239055/settings-title-not-showing-up-after-clicking-on-menu-item-settings#ud853)
+    * [Share menu does not work](http://forums.udacity.com/questions/100247425/share-doesnt-works-on-detailactivityjava?page=1&focusedAnswerId=100270768#100270768)
 
 
