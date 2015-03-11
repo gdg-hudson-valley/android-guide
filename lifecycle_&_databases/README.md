@@ -53,7 +53,8 @@
 6. [parseId Documentation](http://developer.android.com/reference/android/content/ContentUris.html#parseId(android.net.Uri))
 
 ### **Notes**
-1.
+1. [Why to not close the data base in the content provider](http://forums.udacity.com/questions/100269915/why-do-we-not-close-the-database-in-the-content-provider/100270484)
+2. Libraries that deal with content providers/sqlite: [sqlite-provider](https://github.com/novoda/sqlite-provider), [sqlite-anaylzer](https://github.com/novoda/sqlite-analyzer), [sprinkles](https://github.com/emilsjolander/sprinkles), [greendao](https://github.com/greenrobot/greenDAO)
 
 
 ### **Issues (Q&A)**
