@@ -111,6 +111,8 @@ To support this state restoration, simply implement the following callbacks in y
 
 Read more about this on Android Developers "[Recreating an Activity](http://developer.android.com/images/training/basics/basic-lifecycle-savestate.png)".
 
+#### Stetho inspection tool for databases
+[Stetho](https://github.com/facebook/stetho) is an open source tool to inspect databases on connected mobile devices via the Chrome Developer Tools. Add
 
 ### **Issues (Q&A)**
 
