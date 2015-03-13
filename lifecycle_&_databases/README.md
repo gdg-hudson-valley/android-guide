@@ -53,8 +53,60 @@
 6. [parseId Documentation](http://developer.android.com/reference/android/content/ContentUris.html#parseId(android.net.Uri))
 
 ### **Notes**
+
 1. [Why to not close the data base in the content provider](http://forums.udacity.com/questions/100269915/why-do-we-not-close-the-database-in-the-content-provider/100270484)
+
 2. Libraries that deal with content providers/sqlite: [sqlite-provider](https://github.com/novoda/sqlite-provider), [sqlite-anaylzer](https://github.com/novoda/sqlite-analyzer), [sprinkles](https://github.com/emilsjolander/sprinkles), [greendao](https://github.com/greenrobot/greenDAO)
+
+3. **Why Content Providers?** They allow you to share data across app boundaries by abstracting the data source; others can now see *what* the data contains without necessarily knowing *how* it is stored.
+
+4. **Are Content Providers Necessary if I am within a single App?** Not necessary, but still recommended. The key idea here is to separate data model(what) from data logistics (where and how) such that you can decouple the user interfaces (leveraging the data) from the data storage option selected. And, this allows you to switch storage options or move that capability elsewhere later, without disrupting the UI code. *The default framework pattern is to assume the existence of a content provider for a data source*
+
+5. SyncAdapters and CursorLoaders (which optimize the querying and loading of query results in UI elements) also rely on ContentProviders.
+
+### **Bonus: [How to Use a Content Provider](https://www.udacity.com/course/viewer#!/c-ud258/l-3372188753/m-3409668668)**
+
+How can two different apps read/write to the same data source (e.g., to Contacts)?
+* Content Providers. They provide easily managed access to an underlying data source.
+* Content Providers provide an extra layer of abstraction that allows *easy changing of underlying data source*
+* Content Providers allow developers to *leverage functionality of existing helper classes* e.g., CursorAdapters, SyncAdapters, Loaders.
+* Content Providers allow for multi-app access to a single shared data source in a *consistent and secure manner*
+
+Working with the Android [User Dictionary](http://developer.android.com/reference/android/provider/UserDictionary.html) Provider.
+At a high level, the setup for using Content Providers here looks like this:
+
+![](https://lh5.ggpht.com/6DVpeuUp9ty8JQfBQPLQPTxtNr50qsOW49lwJJnJfZGqmUaqvjfwR3JvPUvf4AMdr7u_agGmVrvn1bjEygp5=s0#w=736&h=370)
+
+For more information, refer to the following:
+  * [Setting up DictionaryProviderExample](https://www.udacity.com/course/viewer#!/c-ud258/l-3372188753/m-3411088636) guide
+  * [Android Developers: Content Provider Basics](http://developer.android.com/guide/topics/providers/content-provider-basics.html) Guide)
+
+* **What is a ContentResolver?** A [ContentResolver](http://developer.android.com/reference/android/content/ContentResolver.html) helps your application connect with the *correct* ContentProvider for your needs. See ["Accessing the Content Provider"](https://www.udacity.com/course/viewer#!/c-ud258/l-3372188753/m-3383668991). Every application *Context* has an associated ContentResolver that you can access with *getContentResolver()*. The ContentResolver can then be used to access (query) a ContentProvider as follows:
+```
+ContentResolver resolver = getContentResolver();
+Cursor cursor = resolver.query(
+    UserDictionary.Words.CONTENT_URI,   // The content URI of the words table
+    mProjection,                        // The columns to return for each row
+    mSelectionClause                    // Selection criteria
+    mSelectionArgs,                     // Selection criteria
+    mSortOrder);                        // The sort order for the returned rows
+);
+```
+
+* **What is a Content URI?**
+A [content URI](http://developer.android.com/guide/topics/providers/content-provider-basics.html#ContentURIs) is a universal resource identifier that identifies the data in a provider. It typically includes the scheme (**content://**), the symbolic name of the provider (**authority**) and a name that points to the specific table (**path**) within it. e.g.,
+```
+content://user_dictionary/words
+```
+Here, *user_dictionary* is the provider's authority, and *words* is the specific table within that provider.
+
+* **What is a CursorAdapter?** Recall that an Adapter is essentially a bridge between a data source (e.g., ArrayList) and a View (e.g., ListView) such that adding data to the data source automagically updates the corresponding View with an element containing that data. A *[CursorAdapter](http://developer.android.com/reference/android/widget/CursorAdapter.html)* is a specialized adapter that can expose data from a *[Cursor](http://developer.android.com/reference/android/database/Cursor.html)* to the associated ListView widget. The Cursor data **must** contain a column called *_id* for this to work. For an example of how CursorAdapter works, read the ["Android Developers: Displaying a Quick Contact Badge"](http://developer.android.com/training/contacts-provider/display-contact-badge.html) guide.
+
+* **What is a Content Observer?** A [ContentObserver](http://developer.android.com/reference/android/database/ContentObserver.html) can be registered with a ContentResolver, to be notified if the data associated with a contentURI changes; in such cases, the observer then receives a callback.
+
+* **What is a UriMatcher?** A [UriMatcher](http://developer.android.com/reference/android/content/UriMatcher.html) is a Utility class for allowing you to match a content URI against the specific type of data found in the associated Content Provider. In particular, it maps 'paths' within that ContentURI to integer constants -- now, given a URI, simply call *match(uri)* to determine the associated path instead of having to parse/manipulate path elements with complex if-else code. See [the docs](http://developer.android.com/reference/android/content/UriMatcher.html) for an example.
+
+* **Steps to Building a Content Provider** ![](http://lh4.ggpht.com/xzBGPxfqtiViJZU89tuf7xPI9Xp7psIzg5bkGL2PPNmyxBjVYCSsCBQIeG20-OygFbd-1RmgO8iseVYB-Ae0=s0#w=1216&h=641)  The [starter code](xhttps://www.udacity.com/course/viewer#!/c-ud853/l-3599339441/m-3659838854) is available here.
 
 
 ### **Issues (Q&A)**

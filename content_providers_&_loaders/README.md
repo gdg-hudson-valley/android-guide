@@ -39,7 +39,7 @@
 
 
 ### **Notes**
-1.
+1. First watch the ["Use Cursor Loader.."](https://www.udacity.com/course/viewer#!/c-ud853/l-3681658545/m-3666728992) video to get the big picture, then look at [the actual steps](https://www.udacity.com/course/viewer#!/c-ud853/l-3681658545/m-3649658972) for the process of adding CursorAdapter.
 
 
 ### **Issues (Q&A)**

@@ -111,8 +111,15 @@ To support this state restoration, simply implement the following callbacks in y
 
 Read more about this on Android Developers "[Recreating an Activity](http://developer.android.com/images/training/basics/basic-lifecycle-savestate.png)".
 
+#### SQLite & Databases
+Android has many options for data storage including *SharedPreferences* (ideal for simple key-value pairs), Files (idea for static, large data that is ideally read in sequence), and *SQL databases* (ideal for structured data that needs to be queried or indexed by different criteria).
+
+Learn more about these on [Android Developers: Saving Data](http://developer.android.com/training/basics/data-storage/index.html)
+
 #### Stetho inspection tool for databases
 [Stetho](https://github.com/facebook/stetho) is an open source tool to inspect databases on connected mobile devices via the Chrome Developer Tools. Add
+
+
 
 ### **Issues (Q&A)**
 
