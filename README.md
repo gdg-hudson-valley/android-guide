@@ -19,7 +19,7 @@ Content has been rigorously linked to sources for full attribution. If you are t
 * [Friedger Muffke](https://github.com/friedger)
 * [Hendrix Tavarez](https://github.com/lockerfish)
 * [Crystal Sundaramoorthy](https://github.com/crystalsundara)
-
+* [Dan Scott](https://github.com/dbs)
 
 
 ### **Schedule**
@@ -39,7 +39,7 @@ The jam is scheduled for 8 weeks along the following schedule. The hours shown f
 ### **Lesson Updates (Feb 2015)**
 Udacity recently (on *February 13, 2015*) updated the courses to reflect the Android Studio 1.0 release. **This involves changes to the Sunshine App codebase [as documented here](https://docs.google.com/document/d/193xJb_OpcNCqgquMhxPrMh05IEYFXQqt0S6-6YK8gBw/pub)**.
 
-As a result, there are actually **two** repositories for the codebase. Use[ Sunshine2](https://github.com/udacity/Sunshine-Version-2) if you are following along with the latest updates. This is th e recommended course of action.
+As a result, there are actually **two** repositories for the codebase. Use[ Sunshine2](https://github.com/udacity/Sunshine-Version-2) if you are following along with the latest updates. This is the recommended course of action.
 
 The older Sunshine app version is [still available for reference](https://github.com/udacity/Sunshine). This book will soon be updated to use the latest version in all links. Where this has been done, the text will be updated with a note indicating it is relevant to **Sunshine2**.
 
@@ -54,7 +54,7 @@ In addition, we will meet (as a study group) for 1-2 hours a week, time that you
 
 Check out their [an Android Studio Setup Guide](https://storage.googleapis.com/supplemental_media/udacityu/1395568821/AndroidStudioSetupGuide.pdf) -- however some of the content (e.g., videos) may be slightly out-of-date since they predate the latest Android Studio 1.0 release.
 
-Check out their [Materials section](https://www.udacity.com/wiki/ud853) for more resources and downloadable content for each lesson. Note that its possible to download all videos and watch them offline (if network connectivity is an issue).
+Check out their [Materials section](https://www.udacity.com/wiki/ud853) for more resources and downloadable content for each lesson. Note that it's possible to download all videos and watch them offline (if network connectivity is an issue).
 
 Check out their [complete Sunshine app on GitHub](https://github.com/udacity/Sunshine) with a branch for each lesson/step. Use this as a reference only if you get stuck - its always best to do the exercise yourself to gain a better understanding of the materials.
 
